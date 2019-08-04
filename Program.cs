@@ -26,7 +26,6 @@ namespace EmployeeAccounts
       {
         Console.WriteLine($"{ emp.FirstName } { emp.LastName }: { emp.EmailAddress } IsManager: {emp.IsManager} IsExecutive: {emp.IsExecutive}");
       }
-
       Console.ReadLine();
     }
   }
