@@ -8,10 +8,10 @@ namespace EmployeeAccounts
   {
     static void Main(string[] args)
     {
-      List<PersonModel> applicants = new List<PersonModel>{
-        new PersonModel {firstName = "James", lastName = "Cox"},
-        new PersonModel {firstName = "Max", lastName = "Storr"},
-        new PersonModel {firstName = "Sarah", lastName = "Healy"}
+      List<IApplicantModel> applicants = new List<IApplicantModel>{         //Creating a List of people, called appliocations. 
+        new UserDetails {firstName = "James", lastName = "Cox"},
+        new UserDetails {firstName = "Max", lastName = "Storr"},
+        new UserDetails {firstName = "Sarah", lastName = "Healy"}
       };
 
       List<EmployeeModel> employees = new List<EmployeeModel>();
@@ -19,12 +19,12 @@ namespace EmployeeAccounts
 
       foreach (var person in applicants)
       {
-        employees.Add(accountProcessor.Create(person));
+        employees.Add(person.AccountProcessor.Create(person));
       }
 
       foreach (var emp in employees)
       {
-        Console.WriteLine($"{ emp.FirstName } { emp.LastName }: { emp.EmailAddress } IsManager: { emp.IsManager } IsExecutive: { emp.IsExecutive }");
+        Console.WriteLine($"{ emp.FirstName } { emp.LastName }: { emp.EmailAddress } IsManager: {emp.IsManager} IsExecutive: {emp.IsExecutive}");
       }
 
       Console.ReadLine();
