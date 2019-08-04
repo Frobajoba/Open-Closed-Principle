@@ -1,0 +1,11 @@
+/Users/jamescox/Desktop/C# Projects/EmployeeAccounts/bin/Debug/netcoreapp2.2/EmployeeAccounts.deps.json
+/Users/jamescox/Desktop/C# Projects/EmployeeAccounts/bin/Debug/netcoreapp2.2/EmployeeAccounts.runtimeconfig.json
+/Users/jamescox/Desktop/C# Projects/EmployeeAccounts/bin/Debug/netcoreapp2.2/EmployeeAccounts.runtimeconfig.dev.json
+/Users/jamescox/Desktop/C# Projects/EmployeeAccounts/bin/Debug/netcoreapp2.2/EmployeeAccounts.dll
+/Users/jamescox/Desktop/C# Projects/EmployeeAccounts/bin/Debug/netcoreapp2.2/EmployeeAccounts.pdb
+/Users/jamescox/Desktop/C# Projects/EmployeeAccounts/obj/Debug/netcoreapp2.2/EmployeeAccounts.csprojAssemblyReference.cache
+/Users/jamescox/Desktop/C# Projects/EmployeeAccounts/obj/Debug/netcoreapp2.2/EmployeeAccounts.csproj.CoreCompileInputs.cache
+/Users/jamescox/Desktop/C# Projects/EmployeeAccounts/obj/Debug/netcoreapp2.2/EmployeeAccounts.AssemblyInfoInputs.cache
+/Users/jamescox/Desktop/C# Projects/EmployeeAccounts/obj/Debug/netcoreapp2.2/EmployeeAccounts.AssemblyInfo.cs
+/Users/jamescox/Desktop/C# Projects/EmployeeAccounts/obj/Debug/netcoreapp2.2/EmployeeAccounts.dll
+/Users/jamescox/Desktop/C# Projects/EmployeeAccounts/obj/Debug/netcoreapp2.2/EmployeeAccounts.pdb
