@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jamescox/Desktop/C# Projects/EmployeeAccounts/EmployeeAccounts.csproj": {}
+  },
+  "projects": {
+    "/Users/jamescox/Desktop/C# Projects/EmployeeAccounts/EmployeeAccounts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jamescox/Desktop/C# Projects/EmployeeAccounts/EmployeeAccounts.csproj",
+        "projectName": "EmployeeAccounts",
+        "projectPath": "/Users/jamescox/Desktop/C# Projects/EmployeeAccounts/EmployeeAccounts.csproj",
+        "packagesPath": "/Users/jamescox/.nuget/packages/",
+        "outputPath": "/Users/jamescox/Desktop/C# Projects/EmployeeAccounts/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/jamescox/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
