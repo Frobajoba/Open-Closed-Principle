@@ -9,9 +9,9 @@ namespace EmployeeAccounts
     static void Main(string[] args)
     {
       List<IApplicantModel> applicants = new List<IApplicantModel>{         //Creating a List of people, called appliocations. 
-        new UserDetails {firstName = "James", lastName = "Cox"},
-        new UserDetails {firstName = "Max", lastName = "Storr"},
-        new UserDetails {firstName = "Sarah", lastName = "Healy"}
+        new PersonModel {firstName = "James", lastName = "Cox"},
+        new ManagerModel {firstName = "Max", lastName = "Storr"},
+        new ExecutiveModel {firstName = "Sarah", lastName = "Healy"}
       };
 
       List<EmployeeModel> employees = new List<EmployeeModel>();
